@@ -1,0 +1,3 @@
+Model,Accuracy,Fitness Score,Selected Features
+ALOA Optimized Random Forest,1.0,0.9988888888888889,route_density_score
+ALOA Optimized H5 Neural Network,1.0,0.9988888888888889,route_density_score

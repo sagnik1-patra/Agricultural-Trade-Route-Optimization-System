@@ -1,0 +1,101 @@
+{
+    "project_name": "Agricultural Trade Route Optimization System",
+    "author": "Sagnik Patra",
+    "algorithm": "Whale Optimization Algorithm",
+    "prefix": "woa_",
+    "woa_accuracy": 0.5384615384615384,
+    "h5_accuracy": 0.5384615659713745,
+    "best_woa_fitness": 0.9988888888888889,
+    "selected_features": [
+        "block_market_count"
+    ],
+    "model_results": [
+        {
+            "Model": "WOA Optimized Random Forest",
+            "Accuracy": 0.5384615384615384,
+            "Fitness Score": 0.9988888888888889,
+            "Selected Features": "block_market_count"
+        },
+        {
+            "Model": "WOA Optimized H5 Neural Network",
+            "Accuracy": 0.5384615659713745,
+            "Fitness Score": 0.9988888888888889,
+            "Selected Features": "block_market_count"
+        }
+    ],
+    "classification_report": {
+        "High Route Priority": {
+            "precision": 0.3333333333333333,
+            "recall": 0.5,
+            "f1-score": 0.4,
+            "support": 4.0
+        },
+        "Low Route Priority": {
+            "precision": 0.6,
+            "recall": 0.6,
+            "f1-score": 0.6,
+            "support": 5.0
+        },
+        "Medium Route Priority": {
+            "precision": 1.0,
+            "recall": 0.5,
+            "f1-score": 0.6666666666666666,
+            "support": 4.0
+        },
+        "accuracy": 0.5384615384615384,
+        "macro avg": {
+            "precision": 0.6444444444444445,
+            "recall": 0.5333333333333333,
+            "f1-score": 0.5555555555555555,
+            "support": 13.0
+        },
+        "weighted avg": {
+            "precision": 0.641025641025641,
+            "recall": 0.5384615384615384,
+            "f1-score": 0.5589743589743589,
+            "support": 13.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            2,
+            2,
+            0
+        ],
+        [
+            2,
+            3,
+            0
+        ],
+        [
+            2,
+            0,
+            2
+        ]
+    ],
+    "total_records": 62,
+    "total_selected_features": 1,
+    "target_classes": [
+        "High Route Priority",
+        "Low Route Priority",
+        "Medium Route Priority"
+    ],
+    "saved_files": {
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_prediction.csv",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_model.pkl",
+        "pkl_scaler": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_scaler.pkl",
+        "pkl_encoders": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_encoders.pkl",
+        "pkl_selected_features": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_selected_features.pkl",
+        "yaml_config": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_config.yaml",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_prediction_graph.png",
+        "optimization_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_optimization_graph.png",
+        "training_accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_training_accuracy_graph.png",
+        "confusion_matrix_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\woa_confusion_matrix_graph.png"
+    }
+}

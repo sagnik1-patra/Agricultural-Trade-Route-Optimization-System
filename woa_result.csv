@@ -1,0 +1,3 @@
+Model,Accuracy,Fitness Score,Selected Features
+WOA Optimized Random Forest,0.5384615384615384,0.9988888888888889,block_market_count
+WOA Optimized H5 Neural Network,0.5384615659713745,0.9988888888888889,block_market_count
