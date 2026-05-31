@@ -1,0 +1,96 @@
+{
+    "project_name": "Agricultural Trade Route Optimization System",
+    "author": "Sagnik Patra",
+    "best_model": "Decision Tree",
+    "model_results": [
+        {
+            "Model": "Random Forest",
+            "Accuracy": 0.9230769230769231
+        },
+        {
+            "Model": "Decision Tree",
+            "Accuracy": 1.0
+        },
+        {
+            "Model": "Gradient Boosting",
+            "Accuracy": 1.0
+        },
+        {
+            "Model": "Deep Learning H5",
+            "Accuracy": 0.7692307829856873
+        }
+    ],
+    "classification_report": {
+        "High Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4.0
+        },
+        "Low Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+        },
+        "Medium Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            4,
+            0,
+            0
+        ],
+        [
+            0,
+            5,
+            0
+        ],
+        [
+            0,
+            0,
+            4
+        ]
+    ],
+    "total_records": 62,
+    "total_features": 9,
+    "target_classes": [
+        "High Route Priority",
+        "Low Route Priority",
+        "Medium Route Priority"
+    ],
+    "saved_files": {
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_prediction.csv",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_optimization_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_rf_model.pkl",
+        "pkl_scaler": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_scaler.pkl",
+        "pkl_encoders": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_label_encoders.pkl",
+        "yaml_config": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_config.yaml",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_prediction_graph.png",
+        "training_accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_training_accuracy_graph.png",
+        "confusion_matrix_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\trade_route_confusion_matrix.png"
+    }
+}

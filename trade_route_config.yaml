@@ -1,0 +1,38 @@
+author: Sagnik Patra
+best_model: Decision Tree
+dataset_path: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\megambmarketname_n.xls
+features:
+- District Name_encoded
+- Block Name_encoded
+- Market Name_encoded
+- district_market_count
+- block_market_count
+- market_name_length
+- block_name_length
+- district_name_length
+- route_density_score
+files_generated:
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\trade_route_accuracy_graph.png
+  comparison_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\trade_route_comparison_graph.png
+  confusion_matrix_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\trade_route_confusion_matrix.png
+  encoder_pkl: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_label_encoders.pkl
+  h5_model: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_optimization_model.h5
+  heatmap: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_heatmap.png
+  json_results: trade_route_results.json
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\trade_route_prediction.csv
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\trade_route_prediction_graph.png
+  result_csv: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_result.csv
+  result_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_result_graph.png
+  rf_model_pkl: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_rf_model.pkl
+  scaler_pkl: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\trade_route_scaler.pkl
+  training_accuracy_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\trade_route_training_accuracy_graph.png
+output_directory: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+  System
+project_name: Agricultural Trade Route Optimization System
+target_column: trade_route_category

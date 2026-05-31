@@ -1,0 +1,5 @@
+Model,Accuracy
+Random Forest,0.9230769230769231
+Decision Tree,1.0
+Gradient Boosting,1.0
+Deep Learning H5,0.7692307829856873

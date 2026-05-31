@@ -1,0 +1,63 @@
+District Name,Block Name,Market Name,district_market_count,block_market_count,market_name_length,block_name_length,district_name_length,route_density_score,trade_route_category,District Name_encoded,Block Name_encoded,Market Name_encoded,target,predicted_route_category
+East Garo Hills,Dambo Rongjeng,Rongjeng,9,1,8,14,15,5.7,Low Route Priority,0,6,42,1,Low Route Priority
+East Garo Hills,Kharkuta,Adokgiri,9,2,8,8,15,6.1,Medium Route Priority,0,8,1,2,Medium Route Priority
+East Garo Hills,Kharkuta,Kharkutta,9,2,9,8,15,6.2,Medium Route Priority,0,8,17,2,Medium Route Priority
+East Garo Hills,Resubelpara,Bajengdoba,9,2,10,11,15,6.3,Medium Route Priority,0,22,3,2,Medium Route Priority
+East Garo Hills,Resubelpara,Mendipathar,9,2,11,11,15,6.4,Medium Route Priority,0,22,29,2,Medium Route Priority
+East Garo Hills,Samanda,Rongsak,9,3,7,7,15,6.4,Medium Route Priority,0,25,44,2,Medium Route Priority
+East Garo Hills,Samanda,Samanda,9,3,7,7,15,6.4,Medium Route Priority,0,25,45,2,Medium Route Priority
+East Garo Hills,Samanda,Williamnagar,9,3,12,7,15,6.9,Medium Route Priority,0,25,61,2,Medium Route Priority
+East Garo Hills,Songsak,Songsak,9,1,7,7,15,5.6000000000000005,Low Route Priority,0,28,52,1,Low Route Priority
+East Khasi Hills,Laitkroh,Laitlyngkot,11,1,11,8,16,7.0,High Route Priority,1,10,20,0,High Route Priority
+East Khasi Hills,Mawphlang,Mawngap,11,2,7,9,16,7.0,High Route Priority,1,14,26,0,High Route Priority
+East Khasi Hills,Mawphlang,Sohiong,11,2,7,9,16,7.0,High Route Priority,1,14,51,0,High Route Priority
+East Khasi Hills,Mawryngkneng,Mawryngkneng,11,2,12,12,16,7.5,High Route Priority,1,15,27,0,High Route Priority
+East Khasi Hills,Mawryngkneng,Smit,11,2,4,12,16,6.7,Medium Route Priority,1,15,50,2,Medium Route Priority
+East Khasi Hills,Mawsynram,Mawsynram,11,2,9,9,16,7.2,High Route Priority,1,17,28,0,High Route Priority
+East Khasi Hills,Mawsynram,Tyrsad,11,2,6,9,16,6.9,Medium Route Priority,1,17,55,2,Medium Route Priority
+East Khasi Hills,Mylliem,Iewduh(Shillong),11,2,16,7,16,7.9,High Route Priority,1,18,12,0,High Route Priority
+East Khasi Hills,Mylliem,Mawiong Regulated Market,11,2,24,7,16,8.7,High Route Priority,1,18,24,0,High Route Priority
+East Khasi Hills,Pynursla,Pynursla,11,1,8,8,16,6.7,Medium Route Priority,1,20,35,2,Medium Route Priority
+East Khasi Hills,Shella-Bholaganj,Shella,11,1,6,16,16,6.5,Medium Route Priority,1,27,48,2,Medium Route Priority
+Jaintia Hills,Amlarem,Dawki,9,1,5,7,13,5.4,Low Route Priority,2,0,9,1,Low Route Priority
+Jaintia Hills,Khliehriat,Khliehriat,9,2,10,10,13,6.3,Medium Route Priority,2,9,18,2,Medium Route Priority
+Jaintia Hills,Khliehriat,Umkiang,9,2,7,10,13,6.0,Low Route Priority,2,9,57,1,Low Route Priority
+Jaintia Hills,Laskein,Raliang,9,2,7,7,13,6.0,Low Route Priority,2,11,37,1,Low Route Priority
+Jaintia Hills,Laskein,Shangpung,9,2,9,7,13,6.2,Medium Route Priority,2,11,47,2,Medium Route Priority
+Jaintia Hills,Thadlaskein,Jowai,9,4,5,11,13,6.6,Medium Route Priority,2,29,14,2,Medium Route Priority
+Jaintia Hills,Thadlaskein,Khanduli,9,4,8,11,13,6.8999999999999995,Medium Route Priority,2,29,16,2,Medium Route Priority
+Jaintia Hills,Thadlaskein,Nartiang,9,4,8,11,13,6.8999999999999995,Medium Route Priority,2,29,30,2,Medium Route Priority
+Jaintia Hills,Thadlaskein,Wahiajer,9,4,8,11,13,6.8999999999999995,Medium Route Priority,2,29,60,2,Medium Route Priority
+Ri-Bhoi,Jirang,Jirang,8,2,6,6,7,5.4,Low Route Priority,3,7,13,1,Low Route Priority
+Ri-Bhoi,Jirang,Patharkhmah,8,2,11,6,7,5.9,Low Route Priority,3,7,33,1,Low Route Priority
+Ri-Bhoi,Umling,20th Mile,8,4,9,6,7,6.5,Medium Route Priority,3,31,0,2,Medium Route Priority
+Ri-Bhoi,Umling,Byrnihat,8,4,8,6,7,6.3999999999999995,Medium Route Priority,3,31,5,2,Medium Route Priority
+Ri-Bhoi,Umling,Nongpoh,8,4,7,6,7,6.3,Medium Route Priority,3,31,31,2,Medium Route Priority
+Ri-Bhoi,Umling,Umden,8,4,5,6,7,6.1,Medium Route Priority,3,31,56,2,Medium Route Priority
+Ri-Bhoi,Umsning,Umroi,8,2,5,7,7,5.3,Low Route Priority,3,32,58,1,Low Route Priority
+Ri-Bhoi,Umsning,Umsning,8,2,7,7,7,5.5,Low Route Priority,3,32,59,1,Low Route Priority
+South Garo Hills,Baghmara,Emangiri,5,2,8,8,16,4.1,Low Route Priority,4,1,10,1,Low Route Priority
+South Garo Hills,Baghmara,Sibbari,5,2,7,8,16,4.0,Low Route Priority,4,1,49,1,Low Route Priority
+South Garo Hills,Chokpot,Chokpot,5,1,7,7,16,3.6,Low Route Priority,4,3,6,1,Low Route Priority
+South Garo Hills,Ronggara,Maheshkhola,5,2,11,8,16,4.4,Low Route Priority,4,23,22,1,Low Route Priority
+South Garo Hills,Ronggara,Ronggara,5,2,8,8,16,4.1,Low Route Priority,4,23,41,1,Low Route Priority
+West Garo Hills,Betasing,Ampati,12,1,6,8,15,7.0,High Route Priority,5,2,2,0,High Route Priority
+West Garo Hills,Dadenggiri,Dadenggiri,12,2,10,10,15,7.8,High Route Priority,5,4,7,0,High Route Priority
+West Garo Hills,Dadenggiri,Romagal,12,2,7,10,15,7.5,High Route Priority,5,4,40,0,High Route Priority
+West Garo Hills,Dalu,Dalu,12,2,4,4,15,7.2,High Route Priority,5,5,8,0,High Route Priority
+West Garo Hills,Dalu,Purakhasia,12,2,10,4,15,7.8,High Route Priority,5,5,34,0,High Route Priority
+West Garo Hills,Rongram,Rongram,12,2,7,7,15,7.5,High Route Priority,5,24,43,0,High Route Priority
+West Garo Hills,Rongram,Tura,12,2,4,7,15,7.2,High Route Priority,5,24,54,0,High Route Priority
+West Garo Hills,Selsella,Garobadha Regulated Market,12,1,26,8,15,9.0,High Route Priority,5,26,11,0,High Route Priority
+West Garo Hills,Tikrikilla,Raksamgiri,12,2,10,10,15,7.8,High Route Priority,5,30,36,0,High Route Priority
+West Garo Hills,Tikrikilla,Tikrikilla,12,2,10,10,15,7.8,High Route Priority,5,30,53,0,High Route Priority
+West Garo Hills,Zikzak,Kalaichar,12,2,9,6,15,7.7,High Route Priority,5,33,15,0,High Route Priority
+West Garo Hills,Zikzak,Mahendraganj,12,2,12,6,15,8.0,High Route Priority,5,33,21,0,High Route Priority
+West Khasi Hills,Mairang,Kynshi,8,2,6,7,16,5.4,Low Route Priority,6,12,19,1,Low Route Priority
+West Khasi Hills,Mairang,Mairang,8,2,7,7,16,5.5,Low Route Priority,6,12,23,1,Low Route Priority
+West Khasi Hills,Mawkyrwat,Mawkyrwat,8,1,9,9,16,5.300000000000001,Low Route Priority,6,13,25,1,Low Route Priority
+West Khasi Hills,Mawshynrut,Riangdo,8,2,7,10,16,5.5,Low Route Priority,6,16,39,1,Low Route Priority
+West Khasi Hills,Mawshynrut,Shallang,8,2,8,10,16,5.6,Low Route Priority,6,16,46,1,Low Route Priority
+West Khasi Hills,Nongstoin,Nongstoin,8,2,9,9,16,5.7,Low Route Priority,6,19,32,1,Low Route Priority
+West Khasi Hills,Nongstoin,Rambrai,8,2,7,9,16,5.5,Low Route Priority,6,19,38,1,Low Route Priority
+West Khasi Hills,Ranikor,Balat,8,1,5,7,16,4.9,Low Route Priority,6,21,4,1,Low Route Priority
