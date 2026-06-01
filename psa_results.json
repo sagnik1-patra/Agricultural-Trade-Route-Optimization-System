@@ -1,0 +1,101 @@
+{
+    "project_name": "Agricultural Trade Route Optimization System",
+    "author": "Sagnik Patra",
+    "algorithm": "Hybrid Clonal Selection Algorithm + Particle Swarm Optimization",
+    "prefix": "psa_",
+    "psa_accuracy": 1.0,
+    "h5_accuracy": 0.8461538553237915,
+    "best_psa_fitness": 0.9988888888888889,
+    "selected_features": [
+        "route_density_score"
+    ],
+    "model_results": [
+        {
+            "Model": "Hybrid CSA + PSO Random Forest",
+            "Accuracy": 1.0,
+            "Fitness Score": 0.9988888888888889,
+            "Selected Features": "route_density_score"
+        },
+        {
+            "Model": "Hybrid CSA + PSO H5 Neural Network",
+            "Accuracy": 0.8461538553237915,
+            "Fitness Score": 0.9988888888888889,
+            "Selected Features": "route_density_score"
+        }
+    ],
+    "classification_report": {
+        "High Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4.0
+        },
+        "Low Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+        },
+        "Medium Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            4,
+            0,
+            0
+        ],
+        [
+            0,
+            5,
+            0
+        ],
+        [
+            0,
+            0,
+            4
+        ]
+    ],
+    "total_records": 62,
+    "total_selected_features": 1,
+    "target_classes": [
+        "High Route Priority",
+        "Low Route Priority",
+        "Medium Route Priority"
+    ],
+    "saved_files": {
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_prediction.csv",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_model.pkl",
+        "pkl_scaler": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_scaler.pkl",
+        "pkl_encoders": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_encoders.pkl",
+        "pkl_selected_features": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_selected_features.pkl",
+        "yaml_config": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_config.yaml",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_prediction_graph.png",
+        "optimization_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_optimization_graph.png",
+        "training_accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_training_accuracy_graph.png",
+        "confusion_matrix_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\psa_confusion_matrix_graph.png"
+    }
+}
