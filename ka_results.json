@@ -1,0 +1,101 @@
+{
+    "project_name": "Agricultural Trade Route Optimization System",
+    "author": "Sagnik Patra",
+    "algorithm": "Krill Herd Algorithm",
+    "prefix": "ka_",
+    "ka_accuracy": 1.0,
+    "h5_accuracy": 1.0,
+    "best_ka_fitness": 0.9988888888888889,
+    "selected_features": [
+        "route_density_score"
+    ],
+    "model_results": [
+        {
+            "Model": "KA Optimized Random Forest",
+            "Accuracy": 1.0,
+            "Fitness Score": 0.9988888888888889,
+            "Selected Features": "route_density_score"
+        },
+        {
+            "Model": "KA Optimized H5 Neural Network",
+            "Accuracy": 1.0,
+            "Fitness Score": 0.9988888888888889,
+            "Selected Features": "route_density_score"
+        }
+    ],
+    "classification_report": {
+        "High Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4.0
+        },
+        "Low Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 5.0
+        },
+        "Medium Route Priority": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 4.0
+        },
+        "accuracy": 1.0,
+        "macro avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+        },
+        "weighted avg": {
+            "precision": 1.0,
+            "recall": 1.0,
+            "f1-score": 1.0,
+            "support": 13.0
+        }
+    },
+    "confusion_matrix": [
+        [
+            4,
+            0,
+            0
+        ],
+        [
+            0,
+            5,
+            0
+        ],
+        [
+            0,
+            0,
+            4
+        ]
+    ],
+    "total_records": 62,
+    "total_selected_features": 1,
+    "target_classes": [
+        "High Route Priority",
+        "Low Route Priority",
+        "Medium Route Priority"
+    ],
+    "saved_files": {
+        "result_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_result.csv",
+        "prediction_csv": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_prediction.csv",
+        "h5_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_model.h5",
+        "pkl_model": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_model.pkl",
+        "pkl_scaler": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_scaler.pkl",
+        "pkl_encoders": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_encoders.pkl",
+        "pkl_selected_features": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_selected_features.pkl",
+        "yaml_config": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_config.yaml",
+        "accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_accuracy_graph.png",
+        "comparison_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_comparison_graph.png",
+        "heatmap": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_heatmap.png",
+        "result_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_result_graph.png",
+        "prediction_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_prediction_graph.png",
+        "optimization_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_optimization_graph.png",
+        "training_accuracy_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_training_accuracy_graph.png",
+        "confusion_matrix_graph": "C:\\Users\\NXTWAVE\\Downloads\\Agricultural Trade Route Optimization System\\ka_confusion_matrix_graph.png"
+    }
+}

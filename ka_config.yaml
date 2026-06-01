@@ -1,0 +1,51 @@
+algorithm: Krill Herd Algorithm
+all_features:
+- District Name_encoded
+- Block Name_encoded
+- Market Name_encoded
+- district_market_count
+- block_market_count
+- market_name_length
+- block_name_length
+- district_name_length
+- route_density_score
+author: Sagnik Patra
+dataset_path: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\megambmarketname_n.xls
+files_generated:
+  accuracy_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_accuracy_graph.png
+  comparison_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_comparison_graph.png
+  confusion_matrix_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_confusion_matrix_graph.png
+  h5_model: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_model.h5
+  heatmap: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_heatmap.png
+  optimization_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_optimization_graph.png
+  pkl_encoders: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_encoders.pkl
+  pkl_model: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_model.pkl
+  pkl_scaler: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_scaler.pkl
+  pkl_selected_features: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_selected_features.pkl
+  prediction_csv: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_prediction.csv
+  prediction_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_prediction_graph.png
+  result_csv: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_result.csv
+  result_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization System\ka_result_graph.png
+  training_accuracy_graph: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+    System\ka_training_accuracy_graph.png
+ka_parameters:
+  best_fitness: 0.9988888888888889
+  diffusion_speed: 0.005
+  foraging_speed: 0.02
+  generations: 25
+  induced_speed: 0.01
+  population_size: 20
+output_directory: C:\Users\NXTWAVE\Downloads\Agricultural Trade Route Optimization
+  System
+prefix: ka_
+project_name: Agricultural Trade Route Optimization System
+selected_features:
+- route_density_score
+target_column: trade_route_category

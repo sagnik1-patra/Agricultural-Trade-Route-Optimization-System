@@ -1,0 +1,3 @@
+Model,Accuracy,Fitness Score,Selected Features
+FA Optimized Random Forest,1.0,0.9955555555555555,"District Name_encoded, Market Name_encoded, block_name_length, route_density_score"
+FA Optimized H5 Neural Network,0.8461538553237915,0.9955555555555555,"District Name_encoded, Market Name_encoded, block_name_length, route_density_score"
